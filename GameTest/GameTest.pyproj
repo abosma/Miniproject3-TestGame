@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8afad0f6-c196-4f89-8dfa-ea4a91349aa5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Mastermind\chat\chat_client_pygame.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,26 +22,6 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="Mastermind\chat\chat_client_console.py" />
-    <Compile Include="Mastermind\chat\chat_client_pygame.py" />
-    <Compile Include="Mastermind\chat\chat_server.py" />
-    <Compile Include="Mastermind\chat\mastermind_import.py" />
-    <Compile Include="Mastermind\chat\settings.py" />
-    <Compile Include="Mastermind\_mm_client.py" />
-    <Compile Include="Mastermind\_mm_constants.py" />
-    <Compile Include="Mastermind\_mm_errors.py" />
-    <Compile Include="Mastermind\_mm_netutil.py" />
-    <Compile Include="Mastermind\_mm_server.py" />
-    <Compile Include="Mastermind\__init__.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Mastermind\chat\" />
-    <Folder Include="Mastermind\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Mastermind\chat\connection.txt" />
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
